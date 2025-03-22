@@ -77,14 +77,22 @@ const courses = [
         completed: false
     }
 ]
-
+displayCourses(courses);
+~
 function displayCourses(courseSelection){
     document.querySelector(".course-grid").innerHTML = "";
     courseSelection.forEach(course =>{
+        //Create element for "cards"
         let container = document.createElement("div");
         let coursename = document.createElement("h3");
+        if (course.completed == true){
+            container.classList.add('course-completed-true');
+        }
+        else{
+            container.classList.add('course-completed-false');
+        }
         coursename.textContent = course.title;
-        document.querySelector(".course-")
+        document.querySelector(".course-grid")
     })
 
 }
