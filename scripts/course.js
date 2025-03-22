@@ -77,18 +77,17 @@ const courses = [
         completed: false
     }
 ]
-displayCourses(courses);
-~
-function displayCourses(courseSelection){
+
+function displayCourses(courseSelection) {
     document.querySelector(".course-grid").innerHTML = "";
-    courseSelection.forEach(course =>{
+    courseSelection.forEach(course => {
         //Create element for "cards"
         let container = document.createElement("div");
         let coursename = document.createElement("h3");
-        if (course.completed == true){
+        if (course.completed == true) {
             container.classList.add('course-completed-true');
         }
-        else{
+        else {
             container.classList.add('course-completed-false');
         }
         coursename.textContent = course.title;
@@ -96,17 +95,18 @@ function displayCourses(courseSelection){
     })
 
 }
+displayCourses(courses);
 
-function allCourses(){
-    viewCourses(courses);
+function allCourses() {
+    displayCourses(courses);
 }
 
-function wddCourses(){
+function wddCourses() {
     const wddcourses = courses.filter(course => course.subject == "WDD");
     displayCourses(wddcourses);
 }
 
-function cseCourses(){
-    const csecourses = courses.filter(course =>course.subject == "CSE");
+function cseCourses() {
+    const csecourses = courses.filter(course => course.subject == "CSE");
     displayCourses(csecourses);
 }
