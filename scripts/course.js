@@ -9,7 +9,7 @@ const courses = [
         technology: [
             'Python'
         ],
-        completed: false
+        completed: true
     },
     {
         subject: 'WDD',
@@ -22,7 +22,7 @@ const courses = [
             'HTML',
             'CSS'
         ],
-        completed: false
+        completed: true
     },
     {
         subject: 'CSE',
@@ -34,7 +34,7 @@ const courses = [
         technology: [
             'Python'
         ],
-        completed: false
+        completed: true
     },
     {
         subject: 'CSE',
@@ -46,7 +46,7 @@ const courses = [
         technology: [
             'C#'
         ],
-        completed: false
+        completed: true
     },
     {
         subject: 'WDD',
@@ -60,7 +60,7 @@ const courses = [
             'CSS',
             'JavaScript'
         ],
-        completed: false
+        completed: true
     },
     {
         subject: 'WDD',
@@ -77,3 +77,28 @@ const courses = [
         completed: false
     }
 ]
+
+function displayCourses(courseSelection){
+    document.querySelector(".course-grid").innerHTML = "";
+    courseSelection.forEach(course =>{
+        let container = document.createElement("div");
+        let coursename = document.createElement("h3");
+        coursename.textContent = course.title;
+        document.querySelector(".course-")
+    })
+
+}
+
+function allCourses(){
+    viewCourses(courses);
+}
+
+function wddCourses(){
+    const wddcourses = courses.filter(course => course.subject == "WDD");
+    displayCourses(wddcourses);
+}
+
+function cseCourses(){
+    const csecourses = courses.filter(course =>course.subject == "CSE");
+    displayCourses(csecourses);
+}
