@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/join.css">
+
+</head>
+<body>
+    <main>
+        <form action="thankyou.html" method="GET">
+            <label for="fname">First name</label>
+            <input type="text" id="fname" name="first-name" title="First Name" autocomplete="on">
+            <br>
+        
+            <label for="lname">Last name</label>
+            <input type="text" id="lname" name="last-name" title="Last Name" autocomplete="on">
+            <br>
+        
+            <label for="organization">Organization Title</label>
+            <input type="text" id="email" name="organization" pattern="^[A-Za-z\s-]{7,}$" title="Allowed characters: hyphens, alphabet, spaces and a length of 7 characters required" >
+            <br>
+        
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" autocomplete="on" placeholder="john.doe@organization.com">
+            <br>
+        
+            <label for="phone">Phone number</label>
+            <input type="tel" name="telephone" id="telephone" required autocomplete="on">
+            <br>
+        
+            <label for="business-name">Business/Organization Name</label>
+            <input type="text" name="business-name" id="business-name" required autocomplete="organization">
+            <br>
+
+            <label for="membership-level">Membership Level</label>
+            <select name="membership-level" id="membership-level">
+                <option value="">Select Membership</option>
+                <option value="np">Non profit Organization Membership</option>
+                <option value="bronze">Bronze Membership</option>
+                <option value="silver">Silver Membership</option>
+                <option value="gold">Gold Membership</option>
+            </select>
+            
+        
+        
+        
+        </form>
+    </main>
+</body>
+</html>
