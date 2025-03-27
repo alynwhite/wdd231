@@ -1,0 +1,22 @@
+{
+    "familyName" : "White",
+    "movedInDate" : "November 20, 2019",
+    "familySize" : 3,
+    "bishopricVisit": false,
+    "familyMemberNames" : [{
+        "name": "Uno",
+        "gender": "female",
+        "birthday": "03.20.2023"
+    },
+    {
+        "name": "Tres",
+        "gender": "male",
+        "birthday": "03.20.2020"
+    },
+    {
+        "name": "Dos",
+        "gender": "female",
+        "birthday": "03.20.2093"
+    }
+]
+}
