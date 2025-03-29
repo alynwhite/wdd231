@@ -1,0 +1,51 @@
+:root {
+    --primary-color: #8F2D56;
+    --accent1-color: #218380;
+    --accent2-color: #73D2DE;
+    --accent3-color: #D81159;
+    --accent4-color: #FFBC42;
+    --filler-color: #fefefe;
+
+    --nav-background-color: var(--accent3-color);
+    --nav-link-color: var(--accent1-color);
+    --nav-hover-link-color: var(--accent4-color);
+    --nav-hover-background-color: var(--accent1-color);
+
+    --overal-background-color: #F7F9FB;
+}
+/* .schibsted-grotesk-font{
+    font-family: "Schibsted Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-size: normal;
+} */
+body {
+    font-family: "Schibsted Grotesk", sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+header, main, footer{
+    margin: 0 auto;
+    max-width: 800px;
+    
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid;
+    background-color: var(--nav-background-color);
+}
+nav a{
+    color: var(--filler-color);
+    text-decoration: none;
+    padding: 20px;
+}
+nav a:hover{
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
+header{
+    background-color: var(--accent4-color);
+    padding: 10px;
+    text-align: right;
+}
