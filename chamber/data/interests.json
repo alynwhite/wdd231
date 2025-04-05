@@ -1,0 +1,51 @@
+[
+    {
+      "title": "Sunny Beach Resort",
+      "image": "./images/flowers.jpg",
+      "address": "123 Beachside Ave, Miami, FL 33139",
+      "description": "Sunny Beach Resort is a luxurious beachfront destination offering a mix of relaxation and adventure. With its pristine shores, crystal-clear waters, and exclusive amenities, it’s the perfect place to unwind or enjoy exciting water sports."
+    },
+    {
+      "title": "Mountain Escape Lodge",
+      "image": "./images/flowers.jpg",
+      "address": "456 High Peaks Road, Boulder, CO 80302",
+      "description": "Nestled in the heart of the Rocky Mountains, Mountain Escape Lodge offers breathtaking views and a peaceful retreat from the bustle of daily life. Experience cozy accommodations, hiking trails, and stunning alpine scenery."
+    },
+    {
+      "title": "Downtown Art Gallery",
+      "image": "./images/flowers.jpg",
+      "address": "789 Art Street, New York, NY 10001",
+      "description": "The Downtown Art Gallery showcases contemporary artists from around the world. Explore the creative works in a variety of mediums, from paintings to sculptures, and enjoy the vibrant atmosphere of the city's art scene."
+    },
+    {
+      "title": "City Park Playground",
+      "image": "./images/flowers.jpg",
+      "address": "101 Central Park West, Los Angeles, CA 90012",
+      "description": "City Park Playground is a family-friendly space offering playgrounds, picnic areas, and scenic walking paths. It's the perfect spot for outdoor activities and relaxation, with a variety of events hosted throughout the year."
+    },
+    {
+      "title": "Historic Castle Museum",
+      "image": "./images/flowers.jpg",
+      "address": "202 Castle Hill, Edinburgh, Scotland EH1 2NG",
+      "description": "The Historic Castle Museum is an iconic landmark that takes you back in time. Explore centuries of history, artifacts, and architecture while enjoying magnificent views over the city from the castle walls."
+    },
+    {
+      "title": "Tech Innovations Hub",
+      "image": "./images/flowers.jpg",
+      "address": "303 Innovation Drive, Silicon Valley, CA 94043",
+      "description": "Tech Innovations Hub is where cutting-edge technology and creative minds come together. The space fosters collaboration, offering startup resources, networking opportunities, and workshops for tech enthusiasts."
+    },
+    {
+      "title": "Greenwood Winery",
+      "image": "./images/flowers.jpg",
+      "address": "404 Vine Street, Napa Valley, CA 94558",
+      "description": "Greenwood Winery is set in the beautiful rolling hills of Napa Valley. Enjoy exquisite wine tastings, vineyard tours, and a scenic setting perfect for a relaxing day among the grapevines."
+    },
+    {
+      "title": "Oceanfront Dining Experience",
+      "image": "./images/flowers.jpg",
+      "address": "505 Ocean Drive, Santa Monica, CA 90401",
+      "description": "Oceanfront Dining Experience offers stunning views of the Pacific Ocean while serving gourmet cuisine with the freshest seafood. It's the ideal place for a romantic dinner or a celebration with friends and family."
+    }
+  ]
+  
