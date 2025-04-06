@@ -101,8 +101,8 @@ function displayCourses(courseSelection) {
         container.appendChild(coursename);
         //append to div .course-grid
         courseGrid.appendChild(container);
-        console.log("Does this work? ");
-        console.log(courseGrid);
+        // console.log("Does this work? ");
+        // console.log(courseGrid);
     });
 
 }

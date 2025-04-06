@@ -1,0 +1,73 @@
+[
+    {
+      "name": "TechNova Solutions",
+      "address": "123 Innovation Drive, Silicon Valley, CA",
+      "phone": "(555) 123-4567",
+      "website": "https://www.technova.com",
+      "image": "technova.png",
+      "membershipLevel": 3,
+      "description": "Cutting-edge software and AI services for enterprise solutions.",
+      "founded": 2012
+    },
+    {
+      "name": "GreenLeaf Organics",
+      "address": "456 Nature Trail, Eugene, OR",
+      "phone": "(541) 555-7890",
+      "website": "https://www.greenleaforganics.com",
+      "image": "greenleaf.png",
+      "membershipLevel": 2,
+      "description": "Organic food distributor with a focus on sustainability.",
+      "founded": 2008
+    },
+    {
+      "name": "Skyline Architects",
+      "address": "789 Horizon Blvd, Denver, CO",
+      "phone": "(303) 987-6543",
+      "website": "https://www.skylinearch.com",
+      "image": "skyline.png",
+      "membershipLevel": 1,
+      "description": "Architectural firm specializing in modern cityscapes and eco-buildings.",
+      "founded": 1995
+    },
+    {
+      "name": "NextGen Health",
+      "address": "321 Wellness Way, Austin, TX",
+      "phone": "(512) 555-9023",
+      "website": "https://www.nextgenhealth.com",
+      "image": "nextgen.png",
+      "membershipLevel": 3,
+      "description": "Innovating wearable health tech for remote care.",
+      "founded": 2015
+    },
+    {
+      "name": "BrightFuture Education",
+      "address": "654 Knowledge Rd, Boston, MA",
+      "phone": "(617) 555-1111",
+      "website": "https://www.brightfutureedu.org",
+      "image": "brightfuture.png",
+      "membershipLevel": 2,
+      "description": "Online learning platforms and educational resources for all ages.",
+      "founded": 2010
+    },
+    {
+      "name": "EcoMove Transport",
+      "address": "987 Electric Ave, Portland, OR",
+      "phone": "(503) 555-3333",
+      "website": "https://www.ecomove.com",
+      "image": "ecomove.png",
+      "membershipLevel": 1,
+      "description": "Sustainable urban transportation and logistics.",
+      "founded": 2018
+    },
+    {
+      "name": "Crimson Peak Media",
+      "address": "111 Storyline St, Los Angeles, CA",
+      "phone": "(213) 555-4444",
+      "website": "https://www.crimsonpeakmedia.com",
+      "image": "crimsonpeak.png",
+      "membershipLevel": 3,
+      "description": "Production company creating premium digital content and indie films.",
+      "founded": 2005
+    }
+  ]
+  

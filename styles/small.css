@@ -29,11 +29,16 @@ header, main, footer{
     max-width: 800px;
     
 }
-nav {
-    display: flex;
-    justify-content: space-between;
+nav{
+    display: none;
+    flex-direction: column;
+    gap: 1rem;
     border-top: 1px solid;
     background-color: var(--nav-background-color);
+    padding: 1rem;
+}
+nav.active{
+    display: flex;
 }
 nav a{
     color: var(--filler-color);
@@ -48,4 +53,25 @@ header{
     background-color: var(--accent4-color);
     padding: 10px;
     text-align: right;
+}
+
+/* Style the hamburger icon */
+.hamburger {
+    font-size: 30px;
+    padding: 10px;
+    cursor: pointer;
+    display: block; /* Show hamburger icon on mobile */
+    position: absolute;
+    top: 15px;
+    right: 15px;
+  }
+
+.course-completed-true{
+    background-color: var(--accent4-color);
+}
+.course-completed-false{
+    background-color: var(--accent2-color);
+}
+.course-grid{
+    border: 1px solid;
 }
