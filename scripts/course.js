@@ -79,23 +79,33 @@ const courses = [
 ]
 
 function displayCourses(courseSelection) {
-    document.querySelector(".course-grid").innerHTML = "";
+    //query and clear .course-grid(div in html)
+    const courseGrid = document.querySelector(".course-grid");
+    courseGrid.innerHTML = "";
+
     courseSelection.forEach(course => {
-        //Create element for "cards"
+        //Create container for course "cards"
         let container = document.createElement("div");
         let coursename = document.createElement("h3");
-        if (course.completed == true) {
+        if (course.completed) {
             container.classList.add('course-completed-true');
         }
         else {
             container.classList.add('course-completed-false');
         }
-        coursename.textContent = course.title;
-        document.querySelector(".course-grid")
-    })
+
+        //set course content
+        coursename.textContent = `${course.subject} ${course.number}`;
+
+        //append to container
+        container.appendChild(coursename);
+        //append to div .course-grid
+        courseGrid.appendChild(container);
+        console.log("Does this work? ");
+        console.log(courseGrid);
+    });
 
 }
-displayCourses(courses);
 
 function allCourses() {
     displayCourses(courses);
@@ -110,3 +120,6 @@ function cseCourses() {
     const csecourses = courses.filter(course => course.subject == "CSE");
     displayCourses(csecourses);
 }
+
+//show all courses originally
+displayCourses(courses);
