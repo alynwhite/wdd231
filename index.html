@@ -3,9 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>WWDD 231 - Alexia White</title>
+    <meta name="description" content="WDD 231 webpage created by Alexia White as introduction homepage for WDD 231 class.">
+    <meta name="author" content="Alexia White">
+<!-- CSS -->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/large.css">
+<!-- Javascript -->
+    <script src="scripts/date.js"></script>
+    <script src="scripts/navigation.js"></script>
+    <script src="scripts/course.js"></script>
 </head>
 <body>
-    
+    <header>
+        <span>
+            <img src="images/profile.jpg" alt="Profile picture of A.W.">
+            Alexia White
+        </span>
+        <div class="hamburger" onclick="toggleNav()">
+            &#9776; <!-- Hamburger icon (three horizontal lines) -->
+        </div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="https://alynwhite.github.io/wdd231/chamber/index.html">Chamber</a>
+            <a href="https://alynwhite.github.io/wdd231/">GitHub Profile</a>
+            <a href="https://www.linkedin.com/in/alexia-white-3b850429b/">LinkedIn</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Home</h1>
+        <section>
+            <h2>Course Work</h2>
+        </section>
+        <section>
+            <h2>Home Sweet Home</h2>
+        </section>
+        <section>
+            <h2>Web and Computer Programming Certificate</h2>
+            <h2>Web and Computer Programming Certificate</h2>
+            <button type="button" onclick="allCourses()">All</button>
+            <button type="button" onclick="cseCourses()">CSE</button>
+            <button type="button" onclick="wddCourses()">WDD</button>
+            <div class="course-grid"></div>
+        </section>
+    </main>
+    <footer>
+        <p>@<span id="currentyear"></span></p>
+        <p id="lastModified"></p>
+    </footer>
 </body>
 </html>

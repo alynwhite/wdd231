@@ -1,0 +1,12 @@
+:root {
+    --primary-color: #001427;
+    --accent1-color: #708D81;
+    --accent2-color: #f4d48b;
+    --accent3-color: #BF0603;
+    --accent4-color: #8D0801;
+    --filler-color: #F1E8D5;
+}
+
+section {
+    border-style: 1px double;
+}
