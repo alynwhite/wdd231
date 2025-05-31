@@ -1,27 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WWDD 231 - Alexia White</title>
-    <meta name="description" content="WDD 231 webpage created by Alexia White as introduction homepage for WDD 231 class.">
+    <title>WDD 231 - Alexia White</title>
+    <!-- Meta Data -->
+    <meta name="description"
+        content="WDD 231 webpage created by Alexia White and it is her introduction homepage. Began 02/2025">
     <meta name="author" content="Alexia White">
-<!-- CSS -->
+    <!-- Metadata for social media -->
+    <meta property="og:title" content="WDD 231 - Alexia White">
+    <meta property="og:description" content="Landing page for WDD 231 homework">
+    <meta property="og:image" content="https://alynwhite.github.io/wdd231/images/profile.jpg">
+    <meta property="og:url" content="https://alynwhite.github.io/wdd231/">
+    <meta property="og:type" content="website">
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Schibsted+Grotesk:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+    <!-- CSS Links -->
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/small.css">
     <link rel="stylesheet" href="styles/large.css">
-<!-- Javascript -->
-    <script src="scripts/date.js"></script>
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+    <!-- Javascripts -->
+    <script src="scripts/date.js" defer></script>
     <script src="scripts/navigation.js"></script>
-    <script src="scripts/course.js"></script>
+    <script src="scripts/course.js" defer></script>
+
 </head>
+
 <body>
     <header>
         <span>
-            <img src="images/profile.jpg" alt="Profile picture of A.W.">
+            <img src="images/profile.jpg" alt="Profile picture of Alexia White">
             Alexia White
         </span>
-        <div class="hamburger" onclick="toggleNav()">
+         <!-- Hamburger Icon for Mobile -->
+         <div class="hamburger" onclick="toggleNav()">
             &#9776; <!-- Hamburger icon (three horizontal lines) -->
         </div>
         <nav>
@@ -35,22 +56,25 @@
         <h1>Home</h1>
         <section>
             <h2>Course Work</h2>
+            <p>Seeing how fast this will appear</p>
         </section>
         <section>
-            <h2>Home Sweet Home</h2>
+            <h2>Kenai, Alaska</h2>
         </section>
         <section>
-            <h2>Web and Computer Programming Certificate</h2>
             <h2>Web and Computer Programming Certificate</h2>
             <button type="button" onclick="allCourses()">All</button>
             <button type="button" onclick="cseCourses()">CSE</button>
             <button type="button" onclick="wddCourses()">WDD</button>
             <div class="course-grid"></div>
+
         </section>
+
     </main>
     <footer>
         <p>@<span id="currentyear"></span></p>
         <p id="lastModified"></p>
     </footer>
 </body>
+
 </html>
