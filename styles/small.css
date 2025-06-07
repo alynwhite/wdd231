@@ -5,8 +5,68 @@
     --accent3-color: #BF0603;
     --accent4-color: #8D0801;
     --filler-color: #F1E8D5;
+
+    --nav-background-color: var(--accent4-color);
+    --nav-link-color: var(--accent4-color);
+    --nav-hover-link-color: var(--accent1-color);
+    
+    --overall-background-color: var(var(--filler-color))
 }
 
-section {
-    border-style: 1px double;
+body {
+    font-family: "Schibsted Grotesk", sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+header, main, footer{
+    margin: 0 auto;
+    max-width: 800px;
+    
+}
+nav{
+    display: none;
+    flex-direction: column;
+    gap: 1rem;
+    border-top: 1px solid;
+    background-color: var(--nav-background-color);
+    padding: 1rem;
+}
+nav.active{
+    display: flex;
+}
+nav a{
+    color: var(--filler-color);
+    text-decoration: none;
+    padding: 20px;
+}
+nav a:hover{
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
+header{
+    background-color: var(--filler-color);
+    padding: 10px;
+    text-align: right;
+}
+
+/* Style the hamburger icon */
+.hamburger {
+    font-size: 30px;
+    padding: 10px;
+    cursor: pointer;
+    display: block; /* Show hamburger icon on mobile */
+    position: absolute;
+    top: 15px;
+    right: 15px;
+  }
+
+.course-completed-true{
+    background-color: var(--accent4-color);
+    color: var(--accent2-color);
+}
+.course-completed-false{
+    background-color: var(--accent2-color);
+}
+.course-grid{
+    border: 1px solid;
 }
